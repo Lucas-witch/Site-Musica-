@@ -1,10 +1,13 @@
 * {
     background-color: black;
-    color: whitesmoke;
-    
+    color: whitesmoke;    
 }
 
 div {
     text-align: right;
+}
+
+ul {
     list-style-type: none;
-    }
+}
+
