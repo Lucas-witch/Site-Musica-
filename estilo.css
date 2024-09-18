@@ -1,5 +1,5 @@
 * {
-    background-color: black;
+    background-color: rgb(59, 57, 57);
     color: whitesmoke;
     
 }
@@ -19,4 +19,12 @@ ul {
 .pagina {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.titulos {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+p {
+    font-family: 'Times New Roman', Times, serif;
 }
