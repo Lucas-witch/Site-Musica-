@@ -1,6 +1,7 @@
 * {
     background-color: black;
-    color: whitesmoke;    
+    color: whitesmoke;
+    
 }
 
 div {
@@ -9,4 +10,13 @@ div {
 
 ul {
     list-style-type: none;
+}
+
+.menu {
+    text-align: right;
+}
+
+.pagina {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
