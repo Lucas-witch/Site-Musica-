@@ -7,12 +7,22 @@
 
 nav ul li {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     background-color: rgb(64, 7, 82)
 }
 
-ul {
+a {
+    background-color: rgb(64, 7, 82)  
+}
+
+a:hover {
+    background-color: rgb(249, 11, 206);   
+}
+
+li:hover {
+    background-color: rgb(249, 11, 206);
+}
+
+ul{
     margin: 0;
     padding: 0;
 }
@@ -21,3 +31,4 @@ h1 {
     font-size: 36px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
