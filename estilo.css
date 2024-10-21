@@ -6,34 +6,19 @@
   box-sizing: border-box;
 }
 
-nav ul {
-  background-color: red;
+main, section {
   width: auto;
-  text-align: right;
   list-style-type: none;
   margin-top: 0;
   padding: 0;
 }
 
-nav ul li a, #menu {
-  background-color: rgb(64, 7, 82);
-  display: block;
-  color: white;
-  padding: 13px 14px;
-  text-decoration: none;
-  text-align: right;
-
-}
-
 .song {
   display: inline-block;
   padding: 30px;
+  text-align: justify;
 }
 
-#menu {
-  text-align: right;
-  padding-right: 18px;
-}
 
 .pagina {
   text-align: center;
@@ -48,14 +33,54 @@ nav ul li a, #menu {
   font-size: 30px;
 }
 
-div ul li {
+div, ul, li, a {
   list-style-type: none;
 }
 
 a:hover {
   background-color: rgb(249, 11, 206);
   font-weight: bold;
-  box-sizing: 100px;
-  width: 300px
-  height: 300px;
+}
+
+li:hover {
+  background-color: rgb(249, 11, 206);
+  font-weight: bold;
+}
+
+/* Estilizando o container principal */
+.menu {
+  display: flex;
+}
+
+/* Menu lateral */
+.menu-lateral {
+  width: 200px;
+  background-color: rgb(64, 7, 82);
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.menu-lateral ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+.menu-lateral a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+/* Conteúdo principal */
+.menu {
+  flex: 1;
+  padding: 20px;
+  background-color: rgb(64, 7, 82);
+  box-sizing: border-box;
+  width: 200px;
+}
+
+.menu_2 {
+  background-color: rgb(64, 7, 82);
+  padding: 5px;
 }
