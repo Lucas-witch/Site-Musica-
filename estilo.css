@@ -1,9 +1,12 @@
 * {
-  background-color: black;
   color: whitesmoke;
   font-family: "Times New Roman", Times, serif;
   font-size: 18px;
   box-sizing: border-box;
+}
+
+body {
+  background-color: black;
 }
 
 main, section {
@@ -18,7 +21,6 @@ main, section {
   padding: 30px;
   text-align: justify;
 }
-
 
 .pagina {
   text-align: center;
@@ -35,6 +37,7 @@ main, section {
 
 div, ul, li, a {
   list-style-type: none;
+  text-decoration: none;
 }
 
 a:hover {
@@ -42,21 +45,19 @@ a:hover {
   font-weight: bold;
 }
 
-li:hover {
-  background-color: rgb(249, 11, 206);
-  font-weight: bold;
-}
-
 /* Estilizando o container principal */
 .menu {
   display: flex;
+  flex: 1;
+  padding: 15px;
+  background-color: rgb(64, 7, 82);
 }
 
 /* Menu lateral */
 .menu-lateral {
-  width: 200px;
+  width: 250px;
   background-color: rgb(64, 7, 82);
-  padding: 20px;
+  padding: 30px;
   box-sizing: border-box;
 }
 
@@ -65,22 +66,3 @@ li:hover {
   padding: 0;
 }
 
-
-.menu-lateral a {
-  color: whitesmoke;
-  text-decoration: none;
-}
-
-/* Conteúdo principal */
-.menu {
-  flex: 1;
-  padding: 20px;
-  background-color: rgb(64, 7, 82);
-  box-sizing: border-box;
-  width: 200px;
-}
-
-.menu_2 {
-  background-color: rgb(64, 7, 82);
-  padding: 5px;
-}
